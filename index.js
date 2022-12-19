@@ -10,7 +10,7 @@ program
   .option('--headless', 'default is false')
   .option('-O, --output [file]', 'save full output to file; default: output.json', 'output.json')
   .option('-s, --screenshot [file]', '...')
-  .option('-w, --waituntil [file]', '...')
+  .option('-w, --waituntil domcontentloaded|networkidle0', '...')
   // .action(async () => {
   //  ...
   // });
